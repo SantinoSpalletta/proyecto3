@@ -1,0 +1,97 @@
+/*navbar*/
+header {
+  background-color: #5b5bff;
+}
+
+header a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1400px;
+}
+
+.navbar {
+  font-size: 1.2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.parrafo-nav {
+  font-size: 1.2rem;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+/*parrafo*/
+p {
+  font-size: 0.9rem;
+}
+
+/*productos*/
+.productos {
+  padding-top: 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+/*quienes somos*/
+.quienes-somos {
+  padding-top: 15%;
+}
+
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+/*mapa*/
+.mapa {
+  padding-top: 10%;
+}
+
+/*footer*/
+footer {
+  background-color: #ffd7d7;
+  margin-top: 2%;
+}
+
+.container-footer {
+  font-size: 1.2rem;
+}
+
+@media (min-width: 720px) {
+  .navbar {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+/*# sourceMappingURL=style.css.map */

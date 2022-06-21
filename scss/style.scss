@@ -1,0 +1,85 @@
+$colornav: rgb(91, 91, 255);
+$sizeparrafo: 0.9rem;
+$sizenav: 1.2rem;
+$sizefooter: 1.2rem;
+$colorfooter: rgb(255, 215, 215);
+/*navbar*/
+
+header{
+    background-color: $colornav;
+}
+
+header a{
+    text-decoration: none;
+}
+
+.container{
+    margin: auto;
+    max-width: 1400px;
+}
+.navbar{
+    font-size: $sizenav;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.parrafo-nav{
+    font-size: $sizenav;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: black;
+    transition: all 0.5s;
+}
+
+/*parrafo*/
+p{
+    font-size: $sizeparrafo;
+}
+
+/*productos*/
+.productos{
+    padding-top: 6%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+/*quienes somos*/
+
+.quienes-somos{
+    padding-top: 15%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+/*mapa*/
+
+.mapa{
+    padding-top: 10%;
+}
+
+/*footer*/
+footer{
+    background-color: $colorfooter;
+    margin-top: 2%;
+}
+
+.container-footer{
+    font-size: $sizefooter;
+}
+
+@media (min-width:720px){
+    .navbar{
+        flex-direction: row;
+    }
+}
